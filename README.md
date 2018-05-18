@@ -6,7 +6,7 @@ Build a professional portfolio site using HTML/CSS, while utilizing a short styl
 
 ## Required Specifcations
 
-1. *Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.*
+**1. *Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.* **
 
 * Teal color (used for headings and backgrounds): #4aaaa5
 * Regular font color (used for paragraphs and all text besides the headings): #777777
@@ -16,7 +16,7 @@ Build a professional portfolio site using HTML/CSS, while utilizing a short styl
 * Main content background color: #ffffff
 * Main content border color: #dddddd
 
-2. Fonts:
+** 2. Fonts:**
 
 * For heading fonts use: font-family: 'Georgia', Times, Times New Roman, serif;
 * For all other fonts use: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -47,7 +47,7 @@ Build a professional portfolio site using HTML/CSS, while utilizing a short styl
 * The main section content is 650px wide.
 * The sidebar is 270px wide.
 
-** Your fnished portfolio should look similar to the screenshots shown below:
+**Your fnished portfolio should look similar to the screenshots shown below:**
 
 ![Image of `About Me` page](https://github.com/kyoukel/Basic-Portfolio/blob/master/Portfolio_About.png)
 <!-- Format: ![index.html](url) -->

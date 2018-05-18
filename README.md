@@ -49,8 +49,11 @@ Build a professional portfolio site using HTML/CSS, while utilizing a short styl
 
 ## **Your fnished portfolio should look similar to the screenshots shown below:**
 
+### **About Me Page**
 ![Image of `About Me` page](https://github.com/kyoukel/Basic-Portfolio/blob/master/Portfolio_About.png)
 
+### **Contact Page**
 ![Image of `Contact` page](https://github.com/kyoukel/Basic-Portfolio/blob/master/Portfolio_Contact.png)
 
+### **Portfolio Page**
 ![Image of `Portfolio` page](https://github.com/kyoukel/Basic-Portfolio/blob/master/Portfolio_Gallery.png)

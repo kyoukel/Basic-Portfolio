@@ -4,7 +4,7 @@
 
 Build a professional portfolio site using HTML/CSS, while utilizing a short style guide; and follow it to design an aesthetically pleasing layout while creating different kinds of complex HTML elements.
 
-## Required Specifcations
+## Required Specifications
 
 **1. _Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages._**
 

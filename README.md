@@ -47,7 +47,7 @@ Build a professional portfolio site using HTML/CSS, while utilizing a short styl
 * The main section content is 650px wide.
 * The sidebar is 270px wide.
 
-##**Your fnished portfolio should look similar to the screenshots shown below:**##
+##**Your fnished portfolio should look similar to the screenshots shown below:**
 
 ![Image of `About Me` page](https://github.com/kyoukel/Basic-Portfolio/blob/master/Portfolio_About.png)
 

@@ -1,76 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Title in browser tab-->
+    <title>Contact</title>
+    
+    <!--Links to stylesheets-->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <!--Title in browser tab-->
-    <title>Contact Page</title>
-
-<style>
-    body {
-        background-image: url("assets/images/Computer-Science.jpg");
-    }
-</style>
-    
 </head>
+
 <body>
-
-<!--Links that open into other html files and will remain in their fixed position for each page-->
-<header id="fixed">
-    <article id="right">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </article>
-</header>
- 
-<!--Heading that is positioned relative to fixed header with links-->
-<div id="relative"><strong>Kimberly Youkel</strong></div>
-    
-    <!--Style all sections, id's, forms, and p's within this div.-->        
-    <div class="wrapper2">
-
-        <!--Main Content of contact.html page.-->        
-        <section id="content3">    
+    <!--Links to other html files and will remain in their fixed position for each page.-->
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Kimberly Youkel</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+  
+    <!--main-container holds contact form-->    
+    <div id="main-container" class="container">
+        <section class="main-section">
             <h1><strong>Contact</strong></h1>
-            <hr id="hr3">
-
-            <form action="/action_page.php">
-                <p>Name</p>
-                <label for="Name"></label>
-                <input type="text" id="FullName" placeholder="John Smith..">
-                
-                <p>Email</p>
-                <label for="Email"></label>
-                <input type="text" id="Email" placeholder="example@gmail.com..">
-
-                <p>Message</p>
-                <label for="Message"></label>
-                <input type="text" id="Message">
-
-                <input type="submit" value="Submit">
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit">
             </form>
         </section>
-    </div>
-            <!--Sidebar with icons.-->
-            <aside id="sidebar3">
-                <!--Bolded Header-->
-                <h3><strong>Connect with Me</strong></h3>
-                    <!--Icon images when clicked go to my online profile pages.-->
-                    <article id="align">
-                        <a href="https://github.com/kyoukel/Basic-Portfolio"><img src="assets/images/github-icon.png" width="50" height="50" alt="GitHub" id="gh">
-                        </a>
-                        
-                        <a href="https://linkedin.com/in/kimberly-youkel"><img src="assets/images/linkedin-icon.png" width="50" height="50" alt="LinkedIn" id="link">
-                        </a>
 
-                        <a href="https://stackexchange.com/users/12715188/kyoukel"><img src="assets/images/stack-overflow-icon.png" width="46" height="46" alt="Stack Overflow" id="resize">
-                        </a>
-                    </article>    
-            </aside>       
+        <!--sidebar holds fixed-->
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect with Me</h2>
+                    <a href="#"><img src="assets/images/github-icon.png" class="social" alt="GitHub" /></a>
+                    <a href="#"><img src="assets/images/linkedin-icon.png" class="social" alt="LinkedIn" /></a>
+                    <a href="#"><img src="assets/images/stack-overflow-icon.png" class="social" alt="Stack Overflow" /></a>
+            </div>    
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            &copy; Copyright 2018 Kimberly Youkel
+        </div>
+    </footer>
+    
 </body>
+
 </html>

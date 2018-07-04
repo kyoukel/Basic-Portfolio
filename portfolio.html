@@ -1,77 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Title in browser tab.-->
+    <title>Portfolio</title>
+    
+    <!--Links to stylesheets-->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <!--Title in browser tab.-->
-   <title>Portfolio Page</title>
-
-<style>
-    body {
-        background-image: url("assets/images/Computer-Science.jpg");
-    }
-</style>
 </head>
+
 <body>
 
-<!--Links that open into other html files and will remain in their fixed position for each page.-->
-<header id="fixed">
-    <article id="right">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </article>
-</header>
+    <!--Links to other html files and will remain in their fixed position for each page.-->
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Kimberly Youkel</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-<!--Heading that is positioned relative to fixed header with links.-->
-<div id="relative"><strong>Kimberly Youkel</strong></div>
+<!--main-container holds contact form--> 
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>  
+            <!--Image gallery with relative paths to locate the img file.-->
+            <div class="work">
+                <img src="assets/images/technics-1.jpg" alt="Hangman">
+                <h3>Hangman</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/technics-2.jpg" alt="RPG Game">
+                <h3>RPG Game</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/technics-3.jpg" alt="Trivia Game">
+                <h3>Trivia Game</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/technics-4.jpg" alt="Rutgers Info Widget">
+                <h3>Rutgers Info Widget</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/technics-5.jpg" alt="Rock Paper Scissors">
+                <h3>Rock Paper Scissors</h3>
+            </div>
+        </section>   
 
-    <!--Float all sections, id's, images, and p's within this div.-->
-    <div class="wrapper">
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect with Me</h2>
+                <a href="#"><img src="assets/images/github-icon.png" class="social" alt="GitHub" /></a>
+                <a href="#"><img src="assets/images/linkedin-icon.png" class="social" alt="LinkedIn" /></a>
+                <a href="#"><img src="assets/images/stack-overflow-icon.png" class="social" alt="Stack Overflow" /></a>
+            </div>
+        </section>
+    </div>
     
-        <!--Main Content of portfolio.html page.-->
-        <section id="content2">    
-            
-            <!--Bolded Header-->
-            <h2><strong>Portfolio</strong>
-            <hr id="hr2"> <!--line inserted beneath header.-->
-            </h2>
-                <!--Image gallery with relative paths to locate the file.-->
-                <div class="gallery">
-                    <img src="assets/images/hangman.jpg" width="240px" height="160px" alt="hangman">
-                  <h4><strong>Hangman</strong></h4>  
-                    <img src="assets/images/rpg-game.jpg" width="240px" height="160px" alt="rpg">
-                  <h5><strong>RPG Game</strong></h5>
-                    <img src="assets/images/trivia-game.jpg" width="240px" height="160px" alt="trivia">
-                  <h6><strong>Trivia Game</strong></h6>
-                    <img src="assets/images/rutgers-info-widget.jpg" width="240px" height="160px" alt="widget">
-                  <h7><strong>Rutgers Info Widget</strong></h7>
-                    <img src="assets/images/rock-paper-scissors.jpg" width="240px" height="160px" alt="rps">
-                  <h8><strong>Rock Paper Scissors</strong></h8>
-                </div> 
-        </section>          
-    </div>  
-            <!--Sidebar with icons.-->
-            <aside id="sidebar2">
-                    <!--Bolded Header-->
-                    <h3><strong>Connect with Me</strong></h3>
-                    
-                        <!--Icon images when clicked go to my online profile pages.-->
-                        <article id="align">
-                            <a href="https://github.com/kyoukel/Basic-Portfolio"><img src="assets/images/github-icon.png" width="50" height="50" alt="GitHub" id="gh">
-                            </a>
-                            
-                            <a href="https://linkedin.com/in/kimberly-youkel"><img src="assets/images/linkedin-icon.png" width="50" height="50" alt="LinkedIn" id="link">
-                            </a>
-    
-                            <a href="https://stackexchange.com/users/12715188/kyoukel"><img src="assets/images/stack-overflow-icon.png" width="46" height="46" alt="Stack Overflow" id="resize">
-                            </a>
-                        </article>    
-            </aside>       
+    <footer>
+        <div class="container">
+            &copy; Copyright 2018 Kimberly Youkel
+        </div>
+    </footer>                      
 
 </body>
+
 </html>

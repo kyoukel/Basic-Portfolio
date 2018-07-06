@@ -14,25 +14,25 @@ Build a professional portfolio site using HTML/CSS, while utilizing a short styl
 - [x] Main content background color: `#ffffff`
 - [x] Main content border color: `#dddddd`
 
-**2. Fonts:**
+### 2. Fonts:
 - [x] For `heading fonts` use: font-family: 'Georgia', Times, Times New Roman, serif;
 - [x] For `all other fonts` use: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
-**3. Profile Image Found on index.html:**
+### 3. Profile Image Found on index.html:
 - [x] Use a picture of yourself
 - [x] Save the images to your images folder
 
-**4. Portfolio Images:**
+### 4. Portfolio Images:
 - [x] Save the images to your images folder
 
-**5. Social Link Images (Github, LinkedIn,  StackOverflow, etc.):**
+### 5. Social Link Images (Github, LinkedIn,  StackOverflow, etc.):
 * Save the images to your images folder
 * Ensure that these icons are `live links` to your GitHub, LinkedIn, and Stack Overflow profiles
 - [x] GitHub
 - [x] LinkedIn
 - [x] Stack Overflow
 
-**6. Background Images:**
+### 6. Background Images:
 - [x] Use a background pattern
 
 **7. Dimensions:**
@@ -45,8 +45,8 @@ Build a professional portfolio site using HTML/CSS, while utilizing a short styl
 ### **About Me Page**
 ![Image of `About Me` page](https://github.com/kyoukel/Basic-Portfolio/blob/master/Portfolio_About.png)
 
-### **Contact Page**
-![Image of `Contact` page](https://github.com/kyoukel/Basic-Portfolio/blob/master/Portfolio_Contact.png)
-
 ### **Portfolio Page**
 ![Image of `Portfolio` page](https://github.com/kyoukel/Basic-Portfolio/blob/master/Portfolio_Gallery.png)
+
+### **Contact Page**
+![Image of `Contact` page](https://github.com/kyoukel/Basic-Portfolio/blob/master/Portfolio_Contact.png)

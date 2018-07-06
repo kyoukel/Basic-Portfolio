@@ -5,7 +5,7 @@ Build a professional portfolio site using HTML/CSS, while utilizing a short styl
 
 ## Required Specifications
 
-**1. Colors:**
+### 1. Colors:
 - [x] Teal color (used for headings and backgrounds): `#4aaaa5`
 - [x] Regular font color (used for paragraphs and all text besides the headings): `#777777`
 - [x] Main header background color: `#ffffff`
@@ -35,18 +35,18 @@ Build a professional portfolio site using HTML/CSS, while utilizing a short styl
 ### 6. Background Images:
 - [x] Use a background pattern
 
-**7. Dimensions:**
+### 7. Dimensions:
 - [x] The entire content area is 960px wide
 - [x] The main section content is 650px wide
 - [x] The sidebar is 270px wide
 
-## **Your fnished portfolio should look similar to the screenshots shown below:**
+## Finished portfolio should look similar to the screenshots shown below:
 
-### **About Me Page**
+### About Me Page
 ![Image of `About Me` page](https://github.com/kyoukel/Basic-Portfolio/blob/master/Portfolio_About.png)
 
-### **Portfolio Page**
+### Portfolio Page
 ![Image of `Portfolio` page](https://github.com/kyoukel/Basic-Portfolio/blob/master/Portfolio_Gallery.png)
 
-### **Contact Page**
+### Contact Page
 ![Image of `Contact` page](https://github.com/kyoukel/Basic-Portfolio/blob/master/Portfolio_Contact.png)

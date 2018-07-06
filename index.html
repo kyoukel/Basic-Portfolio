@@ -14,10 +14,11 @@
 
 <body>
     
-    <!--Links to other html files and will remain in their fixed position for each page.-->
+    <!--Master header holds the links to the other pages in the fixed position for each page.-->
     <header id="masthead">
         <div class="container">
             <a href="index.html" id="logo">Kimberly Youkel</a>
+            <!--Links to the other html files-->
             <nav>
                 <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
@@ -26,29 +27,34 @@
         </div>
     </header>
 
-<!--Heading that is positioned relative to fixed header with links.-->
+<!--main content-->
     <div id="main-container" class="container">
+        <!--main-section floats left-->
         <section class="main-section">
             <h1>About Me</h1>
-            
+            <!--Image of self-->
             <img src="assets/images/kyoukel.jpg" class="auth-image" alt="Kimberly Youkel">
+            
             <p>Marshmallow, jelly souffl&eacute;, pastry biscuit, gummi bears, tootsie roll, &amp; gingerbread. Cotton candy, muffin, gingerbread, &amp; fruitcake. Sweet roll souffl&eacute; topping, wafer croissant, oat cake, gummi&nbsp;bears.</p>
             
             <p>Jell-o, cheesecake dessert, fruitcake, ice cream brownie, &amp; liquorice souffl&eacute;. Caramels, biscuit, gummi bears, tiramisu, &amp; chupa chups. Croissant, macaroon, cotton candy, &amp; cake pudding.
             </p>
         </section>
-
+        
+        <!--sidebar floats right-->
         <section class="sidebar">
             <div id="connect">
                 <h2>Connect with Me</h2>
-                
-                <a href="#"><img src="assets/images/github-icon.png" class="social" alt="GitHub" /></a>
-                <a href="#"><img src="assets/images/linkedin-icon.png" class="social" alt="LinkedIn" /></a>
-                <a href="#"><img src="assets/images/stack-overflow-icon.png" class="social" alt="Stack Overflow" /></a>
+                <!--Link to GitHub Profile Page-->
+                <a href="https://github.com/kyoukel"><img src="assets/images/github-icon.png" class="social" alt="GitHub" /></a>
+                <!--Link to LinkedIn Profile Page-->
+                <a href="https://www.linkedin.com/in/kimberly-youkel/"><img src="assets/images/linkedin-icon.png" class="social" alt="LinkedIn" /></a>
+                <!--Link to Stack Overflow Profile Page-->
+                <a href="https://stackexchange.com/users/12715188/kyoukel"><img src="assets/images/stack-overflow-icon.png" class="social" alt="Stack Overflow" /></a>
             </div>
         </section>
     </div>      
-          
+     <!-- By using the 'clear' class property which eliminates floating elements to the right or left of this div, therefore placing the footer section underneath both 'main-container' and 'sidebar' boxes-->     
     <footer>
         <div class="container">
             &copy; Copyright 2018 Kimberly Youkel

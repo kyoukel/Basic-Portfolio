@@ -6,8 +6,10 @@
     <!--Title in browser tab.-->
     <title>Portfolio</title>
     
-    <!--Links to stylesheets-->
+    <!--Links to reset stylesheet-->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <!--Link to CSS stylesheet-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
@@ -18,6 +20,7 @@
     <header id="masthead">
         <div class="container">
             <a href="index.html" id="logo">Kimberly Youkel</a>
+            <!--Links to the other html files-->
             <nav>
                 <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
@@ -26,8 +29,9 @@
         </div>
     </header>
 
-<!--main-container holds contact form--> 
+<!--main-container holds images--> 
     <div id="main-container" class="container">
+        <!--main-section floats left-->
         <section class="main-section">
             <h1>Portfolio</h1>  
             <!--Image gallery with relative paths to locate the img file.-->
@@ -52,17 +56,21 @@
                 <h3>Rock Paper Scissors</h3>
             </div>
         </section>   
-
+        
+        <!--sidebar floats right-->
         <section class="sidebar">
             <div id="connect">
                 <h2>Connect with Me</h2>
-                <a href="#"><img src="assets/images/github-icon.png" class="social" alt="GitHub" /></a>
-                <a href="#"><img src="assets/images/linkedin-icon.png" class="social" alt="LinkedIn" /></a>
-                <a href="#"><img src="assets/images/stack-overflow-icon.png" class="social" alt="Stack Overflow" /></a>
+                <!--Link to GitHub Profile Page-->
+                <a href="https://github.com/kyoukel"><img src="assets/images/github-icon.png" class="social" alt="GitHub" /></a>
+                <!--Link to LinkedIn Profile Page-->
+                <a href="https://www.linkedin.com/in/kimberly-youkel/"><img src="assets/images/linkedin-icon.png" class="social" alt="LinkedIn" /></a>
+                <!--Link to Stack Overflow Profile Page-->
+                <a href="https://stackexchange.com/users/12715188/kyoukel"><img src="assets/images/stack-overflow-icon.png" class="social" alt="Stack Overflow" /></a>
             </div>
         </section>
     </div>
-    
+    <!-- By using the 'clear' class property which eliminates floating elements to the right or left of this div, therefore placing the footer section underneath both 'main-container' and 'sidebar' boxes-->
     <footer>
         <div class="container">
             &copy; Copyright 2018 Kimberly Youkel
